@@ -1,5 +1,5 @@
 ICE App
-Android App to notify appropriate institutions in case of any emergency.
+This is an Android App that can be used to notify appropriate institutions in case of an emergency.
 
 #Contributors 
 <ul>
