@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4757b3"
-    android:orientation="vertical">
-    <TextView
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="In Case of Emergency"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="26dp"
-        android:textStyle="bold"
-        android:background="@android:color/white"
-        android:layout_marginBottom="30dp">
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="vertical">
 
-    </TextView>
+        <!-- A RecyclerView with some commonly used attributes -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#FAFAFA"
+            android:scrollbars="vertical" />
 
+    </LinearLayout>
 
-    <!-- A RecyclerView with some commonly used attributes -->
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/my_recycler_view"
-        android:layout_width="match_parent"
+    <!-- A Floating Action Button with some commonly used attributes -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:background="#4757b3"
-        android:scrollbars="vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary"
+        app:elevation="7dp" />
+</android.support.design.widget.CoordinatorLayout>
 
 
-        />
 
-</LinearLayout>

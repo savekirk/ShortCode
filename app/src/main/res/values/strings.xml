@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">ICE</string>
-        <string name="action_settings">Settings</string>
-        <string name="logo_desc">App logo</string>
-        <string name="country_name">Nigeria</string>
-    </resources>
+    <string name="action_about">About ICE</string>
+    <string name="action_help">Help</string>
+    <string name="logo_desc">App logo</string>
+    <string name="country_name">Nigeria</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="help_me">Its Simple! Just click on a card to Dial the Service Number</string>
+    <string name="about_ice">Copyright © 2016 ICE. All rights reserved</string>
+</resources>
 

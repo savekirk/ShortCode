@@ -2,95 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jar="/Users/Frankspaco/Desktop/KennY-DEv/ICE/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_e7bbcf6cd2eae00ee07e381aed4c02d6e500e10f.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_56f69512c2367540579c4ba1375cedffcfa288f7.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_78e2dbbb0e78cdc65f41bc8f1f753d3fcf83ed6f.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_54f6782070e2e3564bf37a488595b066fdb1eff2.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.3.0_58f64b4e3f2f679c8323aa3acd22fd2eddcd99a8.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_2b232e570ba5e951f916f7fe03fbdeeb85d65479.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="a94f5f934b5a45a303c9dd35b8d3df84880c8273">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/instant-run_c0de08f406b7beed21aa336d87467efd8b776a4f.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_9a3084a29f436da6f21609985b098e864b4bcb12.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_d58912b85c8c785a3c20919c4618edf667ab5e8c.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d41792854b7fb173e61c2bfea5044fd47df76114">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.3.0_3e05a0ea5aa816f9213ed7a3091d77b44ed03821.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_00b4026e8f916c2a6898a8085fb70758cd0c0628.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="581b76809735e83e61cdb1cc87c1368e5f5e55fb">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_5a4ad5a4b893edb32fac24c1fddd7e46e64baa46.jar" />
-    </item>
-    <item
-        jar="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
-        <dex dex="/Users/Frankspaco/Downloads/ShortCode/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_9afcb5de8f9fdf630ce115fcd8de63863d254f84.jar" />
+        sha1="d45f514f35e0bcde248391890d6958d9cef5c618">
+        <dex dex="/Users/Frankspaco/Desktop/KennY-DEv/ICE/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f6eca49b3bc55808e82768eabc453d2a648690fc/classes.dex" />
     </item>
 
 </items>
