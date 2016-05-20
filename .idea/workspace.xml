@@ -54,9 +54,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62279453-c355-4da6-8ff8-a76a41bdabd4" name="Default" comment="+ App icon changed&#10;+ Added Splashscreen using Google Guildlines&#10;+ Redesigned the Card layout&#10;+ Updated and assigned relevant short codes to cards&#10;+ Added two extra cards for Emergency Articles&#10;+ Categorized Emergencies Articles populated with listView&#10;+ Added floating action button with snack bar&#10;+ Updated the Overflow Area with About App and Help&#10;&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-    </list>
+    <list default="true" id="62279453-c355-4da6-8ff8-a76a41bdabd4" name="Default" comment="+ App icon changed&#10;+ Added Splashscreen using Google Guildlines&#10;+ Redesigned the Card layout&#10;+ Updated and assigned relevant short codes to cards&#10;+ Added two extra cards for Emergency Articles&#10;+ Categorized Emergencies Articles populated with listView&#10;+ Added floating action button with snack bar&#10;+ Updated the Overflow Area with About App and Help&#10;&#10;" />
     <ignored path="ICE.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
