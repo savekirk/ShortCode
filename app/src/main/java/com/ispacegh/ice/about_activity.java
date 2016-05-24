@@ -26,6 +26,7 @@ public class about_activity extends AppCompatActivity {
         // Do something in response to button click
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }

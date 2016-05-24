@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
 
         // Open Permission Dialog @Runtime using below code
-        ActivityCompat.requestPermissions(MainActivity.this,
-                new String[]{Manifest.permission.CALL_PHONE},
-                1);
+//        ActivityCompat.requestPermissions(MainActivity.this,
+//                new String[]{Manifest.permission.CALL_PHONE},
+//                1);
 
         //Floating Action Button Declaration
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -80,10 +80,12 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_help) {
             Intent intent = new Intent(this, help_activity.class);
             startActivity(intent);
+            finish();
             return true;
         } else if (id == R.id.action_about) {
             Intent intent = new Intent(this, about_activity.class);
             startActivity(intent);
+            finish();
             return true;
         }
         return super.onOptionsItemSelected(item);
