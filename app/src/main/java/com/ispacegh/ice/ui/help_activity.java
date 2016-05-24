@@ -1,9 +1,11 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.ispacegh.ice.R;
 
 /**
  * Created by kenny on 5/20/16.

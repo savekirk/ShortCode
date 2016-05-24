@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.adapter;
 
 /**
  * Created by kenny on 4/16/16.
@@ -14,6 +14,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.ispacegh.ice.ui.FirstAidActivity;
+import com.ispacegh.ice.ItemObject;
+import com.ispacegh.ice.R;
+import com.ispacegh.ice.ui.SafetyActivity;
 
 import java.util.List;
 

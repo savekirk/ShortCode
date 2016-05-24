@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.content.Intent;
 import android.os.Bundle;

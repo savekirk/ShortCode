@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 /**
  * Created by kenny on 5/19/16.
@@ -8,6 +8,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.ispacegh.ice.R;
+import com.ispacegh.ice.adapter.FirstAidListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

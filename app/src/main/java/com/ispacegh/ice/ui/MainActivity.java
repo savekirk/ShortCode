@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.Manifest;
 import android.content.Intent;
@@ -14,6 +14,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.ispacegh.ice.ItemObject;
+import com.ispacegh.ice.R;
+import com.ispacegh.ice.adapter.CardViewDataAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

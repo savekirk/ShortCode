@@ -1,9 +1,12 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.ispacegh.ice.R;
+import com.ispacegh.ice.adapter.SafetyListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

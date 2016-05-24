@@ -14,7 +14,7 @@
 
 
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SafetyActivity" />
-        <activity android:name=".FirstAidActivity" />
-        <activity android:name=".RoadSafetyListActivity" />
-        <activity android:name=".WorkSafetyListActivity" />
-        <activity android:name=".AirSafetyListActivity" />
-        <activity android:name=".HomeSafetyListActivity" />
-        <activity android:name=".RoadAidListActivity" />
-        <activity android:name=".HomeAidListActivity" />
-        <activity android:name=".WorkAidListActivity" />
-        <activity android:name=".OtherAidListActivity" />
-        <activity android:name=".about_activity" />
-        <activity android:name=".help_activity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.SafetyActivity" />
+        <activity android:name=".ui.FirstAidActivity" />
+        <activity android:name=".ui.RoadSafetyListActivity" />
+        <activity android:name=".ui.WorkSafetyListActivity" />
+        <activity android:name=".ui.AirSafetyListActivity" />
+        <activity android:name=".ui.HomeSafetyListActivity" />
+        <activity android:name=".ui.RoadAidListActivity" />
+        <activity android:name=".ui.HomeAidListActivity" />
+        <activity android:name=".ui.WorkAidListActivity" />
+        <activity android:name=".ui.OtherAidListActivity" />
+        <activity android:name=".ui.about_activity" />
+        <activity android:name=".ui.help_activity" />
+        <activity android:name=".ui.MainActivity" />
 
 
     </application>

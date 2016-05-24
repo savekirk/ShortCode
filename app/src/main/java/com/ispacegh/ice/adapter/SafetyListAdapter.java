@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.adapter;
 
 import android.content.Intent;
 import android.support.v7.widget.CardView;
@@ -9,13 +9,20 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ispacegh.ice.ui.AirSafetyListActivity;
+import com.ispacegh.ice.ArticleListItem;
+import com.ispacegh.ice.ui.HomeSafetyListActivity;
+import com.ispacegh.ice.R;
+import com.ispacegh.ice.ui.RoadSafetyListActivity;
+import com.ispacegh.ice.ui.WorkSafetyListActivity;
+
 import java.util.List;
 
-public class FirstAidListAdapter extends RecyclerView.Adapter<FirstAidListAdapter.ArticleViewHolder> {
+public class SafetyListAdapter extends RecyclerView.Adapter<SafetyListAdapter.ArticleViewHolder> {
 
     List<ArticleListItem> articles;
 
-    FirstAidListAdapter(List<ArticleListItem> articles) {
+    SafetyListAdapter(List<ArticleListItem> articles) {
         this.articles = articles;
     }
 
@@ -63,13 +70,13 @@ public class FirstAidListAdapter extends RecyclerView.Adapter<FirstAidListAdapte
         public void onClick(View view) {
 
             if (getAdapterPosition() == 0) {
-                view.getContext().startActivity(new Intent(view.getContext(), RoadAidListActivity.class));
+                view.getContext().startActivity(new Intent(view.getContext(), RoadSafetyListActivity.class));
             } else if (getAdapterPosition() == 1) {
-                view.getContext().startActivity(new Intent(view.getContext(), HomeAidListActivity.class));
+                view.getContext().startActivity(new Intent(view.getContext(), HomeSafetyListActivity.class));
             } else if (getAdapterPosition() == 2) {
-                view.getContext().startActivity(new Intent(view.getContext(), WorkAidListActivity.class));
+                view.getContext().startActivity(new Intent(view.getContext(), WorkSafetyListActivity.class));
             } else if (getAdapterPosition() == 3) {
-                view.getContext().startActivity(new Intent(view.getContext(), OtherAidListActivity.class));
+                view.getContext().startActivity(new Intent(view.getContext(), AirSafetyListActivity.class));
             } else {
                 return;
             }

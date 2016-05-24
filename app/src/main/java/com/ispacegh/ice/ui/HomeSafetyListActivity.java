@@ -1,8 +1,10 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+
+import com.ispacegh.ice.R;
 
 /**
  * Created by kenny on 5/19/16.

@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 /**
  * Created by kenny on 5/18/16.

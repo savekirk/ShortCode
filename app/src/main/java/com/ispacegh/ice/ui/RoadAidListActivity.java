@@ -1,13 +1,15 @@
-package com.ispacegh.ice;
+package com.ispacegh.ice.ui;
 
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
+import com.ispacegh.ice.R;
+
 /**
  * Created by kenny on 5/19/16.
  */
-public class WorkSafetyListActivity extends ListActivity {
+public class RoadAidListActivity extends ListActivity {
 
     //Data source for the list view
     static final String[] PENS = new String[]{
@@ -28,7 +30,7 @@ public class WorkSafetyListActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_work_safety);
+        setContentView(R.layout.activity_road_aid);
 
         setListAdapter(new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, PENS));
