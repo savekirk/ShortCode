@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.gdgaccra.ice;
 
 import android.app.Activity;
 import android.os.Bundle;

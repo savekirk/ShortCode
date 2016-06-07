@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.gdgaccra.ice;
 
 /**
  * Created by kenny on 5/18/16.

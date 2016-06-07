@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ispacegh.ice">
+    package="com.gdgaccra.ice">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
@@ -14,7 +14,7 @@
 
 
         <activity
-            android:name=".SplashActivity"
+            android:name="com.gdgaccra.ice.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SafetyActivity" />
-        <activity android:name=".FirstAidActivity" />
-        <activity android:name=".RoadSafetyListActivity" />
-        <activity android:name=".WorkSafetyListActivity" />
-        <activity android:name=".AirSafetyListActivity" />
-        <activity android:name=".HomeSafetyListActivity" />
-        <activity android:name=".RoadAidListActivity" />
-        <activity android:name=".HomeAidListActivity" />
-        <activity android:name=".WorkAidListActivity" />
-        <activity android:name=".OtherAidListActivity" />
-        <activity android:name=".about_activity" />
-        <activity android:name=".help_activity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.gdgaccra.ice.SafetyActivity" />
+        <activity android:name="com.gdgaccra.ice.FirstAidActivity" />
+        <activity android:name="com.gdgaccra.ice.RoadSafetyListActivity" />
+        <activity android:name="com.gdgaccra.ice.WorkSafetyListActivity" />
+        <activity android:name="com.gdgaccra.ice.AirSafetyListActivity" />
+        <activity android:name="com.gdgaccra.ice.HomeSafetyListActivity" />
+        <activity android:name="com.gdgaccra.ice.RoadAidListActivity" />
+        <activity android:name="com.gdgaccra.ice.HomeAidListActivity" />
+        <activity android:name="com.gdgaccra.ice.WorkAidListActivity" />
+        <activity android:name="com.gdgaccra.ice.OtherAidListActivity" />
+        <activity android:name="com.gdgaccra.ice.about_activity" />
+        <activity android:name="com.gdgaccra.ice.help_activity" />
+        <activity android:name="com.gdgaccra.ice.MainActivity" />
 
 
     </application>

@@ -1,4 +1,4 @@
-package com.ispacegh.ice;
+package com.gdgaccra.ice;
 
 import android.content.Intent;
 import android.support.v7.widget.CardView;
